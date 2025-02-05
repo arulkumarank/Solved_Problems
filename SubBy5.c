@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main (){
     int a,b;
-    printf("enter the first number : ");
+    printf("enter a number : ");
     scanf("%d",&a);
     b   = a-5, &b;
-    printf("the addiion of these numbers are : %d",b);
+    printf("the number is subracted by 5 : %d",b);
     return 0;
 }
