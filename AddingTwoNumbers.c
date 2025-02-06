@@ -1,11 +1,9 @@
 #include <stdio.h>
 int main (){
-    int a,b,c;
+    int a;
     printf("enter the first number : ");
     scanf("%d",&a);
-    printf("enter the second number : ");
-    scanf("%d",&b);
-    c = a+b,&c;
-    printf("the addiion of these numbers are : %d",c);
+    a=a+2;
+    printf("the addiion of these numbers are : %d",a);
     return 0;
 }
